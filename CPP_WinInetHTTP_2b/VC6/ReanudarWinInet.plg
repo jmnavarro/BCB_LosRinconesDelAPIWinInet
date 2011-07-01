@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ReanudarWinInet - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP5180.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\logica" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/ReanudarWinInet.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\tmp\CPP_WinInetHTTP_2b\VC6\HiloDescargaEventosVC6.cpp"
+"C:\tmp\CPP_WinInetHTTP_2b\VC6\ReanudarWinInet.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP5180.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP5181.TMP" with contents
+[
+wininet.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/ReanudarWinInet.pdb" /debug /machine:I386 /out:"Debug/ReanudarWinInet.exe" /pdbtype:sept 
+.\Debug\Hilo.obj
+.\Debug\HiloDescarga.obj
+.\Debug\HiloDescargaEventosVC6.obj
+.\Debug\ReanudarWinInet.obj
+.\Debug\ReanudarWinInetDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\ReanudarWinInet.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP5181.TMP"
+<h3>Output Window</h3>
+Compiling...
+HiloDescargaEventosVC6.cpp
+ReanudarWinInet.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+ReanudarWinInet.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
